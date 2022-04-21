@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+## Luca School of Arts - Polymath lab
 
-You can use the [editor on GitHub](https://github.com/luca-arts/luca-arts.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### in short
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+a research lab and community, bridging creatives and technology
 
-### Markdown
+### synopsis
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### who
 
-```markdown
-Syntax highlighted code block
+Polymath lab is a researchlab and community who wants to bring creatives in touch with emerging technologies and together with them investigate how these new technologies can be of use to them or empower them. (Think AI, XR, web3.0, HCI)
 
-# Header 1
-## Header 2
-### Header 3
+**Technological generalists** combining forces with teachers from Luca, other researchers within KULeuven and the industry surrounding Luca school of Arts.
 
-- Bulleted
-- List
+An open group for applied research consisting of:
 
-1. Numbered
-2. List
+- teacher-researchers (target: education)
+- full-time researchers (target: labour market)
+<!-- beter woord zoeken voor labour market?? -->
 
-**Bold** and _Italic_ and `Code` text
+#### why
 
-[Link](url) and ![Image](src)
-```
+[Innovation is change](https://www.fguell.com/en/innovation-is-change/). These changes follow quickly on a wide scale of topics.
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+We want to research how these changes will affect the future of creatives:
 
-### Jekyll Themes
+- How do creatives position themselves against the changes and the use of the innovative technologies?
+- How can the creatives be enabled to use these technologies, in an intended yet also unintended fashion?
+- How can we stimulate peer-training and knowledge sharing?
+- How can we influence the workfield to adopt these emerging technologies?
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/luca-arts/luca-arts.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+#### what
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- research projects
+- accessible knowledge gathering and sharing
+- link with workfield
+- dissemination of research results
+
+#### get in touch
+
+mail us at polymath [at] luca-arts [dot] be for:
+
+- interest
+- researchprojects
+- participation of or presenting a talk
+- knowledge sharing
