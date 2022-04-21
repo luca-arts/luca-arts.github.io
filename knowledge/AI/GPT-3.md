@@ -1,4 +1,10 @@
-#NLP #GPT-3 #GPT 
+---
+tags:
+  - NLP
+  - AI
+  - GPT-3
+  - Google
+---
 
 # GPT-3
 [openAI API](https://openai.com/api/)
