@@ -12,41 +12,46 @@ _class: invert
 paginate: true
 ---
 
-![w:160 invert](luca_logo.png)
+![w:160 invert](LUCA_logo.png)
 
-# lerend netwerk: Luca
+# lerend netwerk Arts Based Research
 
-Meeting 25/04/2022 Luca Gent
+## LUCA
+
+Meeting 25/04/2022 LUCA Gent
 
 <!-- 
-1. Hoe wordt kunst en design ingezet in onderzoek?
-2. wat betekent kunst in onderzoek? -->
+  1. Hoe wordt kunst en design ingezet in onderzoek?
+  2. wat betekent kunst in onderzoek? 
+  3. art based research netwerk binnen praktijkgebaseerd onderzoek, waarom komen ze tot bij ons om creatieve kunst in te zetten in research: creative and artistic skills. 
+  4. immersieve omgeving als extra voor geloofwaardigheid, storytelling, ...
+  5. De game-omgeving en creative storytelling approach 
+-->
 
 --- 
 
 ## topics
 
-1. Polymath lab (?)
+1. Polymath lab
 2. BabelAR <!--https://docs.google.com/presentation/d/1bUIL82ro1EIso9SZqvoJfxPGN7ETAxMsVLvuQK2gd0I/edit#slide=id.p2 -->
 3. TrustVR
-4. PWO ondersteuning
 
 ---
 
-**@Valery** zouden we polymath vermelden?
-Polymath: 
-- Kasper & Wouter
-- onderzoekslabo en community: brug technologie - creativiteit
+wie ben ik: creative engineer, keuze als engineer om juist binnen 
 
-**Doel:** hoe future creatives empoweren in functie van opkomende technologiën
+
 
 ---
 
+<!-- https://henryvandevelde.be/nl/awards/22/babelar -->
 ![](babelAR/babelar_1_.png)
 
 ---
 
 ## BabelAR
+
+==> welke partners waren in dit project, consortium
 
 <!-- De Polymath meerwaarde is dat we associatiever kunnen conceptualiseren door artistieke en technologische context -->
 <!-- ![](logo_virtulapp_name2.jpg) -->
@@ -83,7 +88,17 @@ Polymath:
 
 --- 
 
-### Rol van Luca
+oorsprong consortium CoHack Reality
+
+# consortium virtulapp
+
+---
+
+
+
+---
+
+### Rol van LUCA - inzet arts-based research
 
 - idee - concept - realisatie
 - visual first aanpak: 
@@ -102,7 +117,7 @@ Polymath:
 
 ![bg right](ostracism.png)
 
-- samenwerking KULeuven Psychologie en Luca
+- samenwerking KULeuven Psychologie en LUCA
 - hechtingsproblematiek bij kinderen (9-12)
   - invloed van Oxytocine op hechting?
 
@@ -121,21 +136,18 @@ immersieve opstelling :
 
 ---
 
-### Rol van luca
+### Rol van LUCA
+
+==> niet enkele technical expertise, hoe kunnen we het creatieve potentieel van tech ontsluiten
+==> voordeel van de creatieve oplossing: researchers stellen grenzen op, wij zorgen voor unieke beleving, die toch aanpasbaar genoeg is, geloofwaardig en evenzeer verwonderlijk. 
+==> kunst is niet enkel inkt+krijt
+==> waarom niet gewoon een gamehuis ==> interactie aangaan, ontbreken van kennis is aan beide kanten zo, laten we leren van elkaar. 
 
 - ontwikkeling spelomgeving + integratie sensoren
-- user story uitschrijven in functie van onderzoek KUL
+- user story uitschrijven in functie van onderzoek KUL ==> creative occupation
 - samen kijken met KUL voor meerwaarde dmv Virtual Reality
   - game development
   - 3D modelling voor de 'suspension of disbelief'
   - design process
 
 ---
-
-### PWO ondersteuning
-
-- domein- + technische experts
-- bv Narafi 
-
-![bg right:40%](Narafi.PNG)
-
