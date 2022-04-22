@@ -4,7 +4,11 @@
 
 a research lab and community, bridging creatives and technology
 
-### synopsis
+### projects
+
+visit  [project page](./projects/projects.md)
+
+### About
 
 #### who
 
@@ -15,8 +19,7 @@ Polymath lab is a researchlab and community who wants to bring creatives in touc
 An open group for applied research consisting of:
 
 - teacher-researchers (target: education)
-- full-time researchers (target: labour market)
-<!-- beter woord zoeken voor labour market?? -->
+- full-time researchers (target: workfield)
 
 #### why
 
