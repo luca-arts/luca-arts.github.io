@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "knowledge/AI/GPT-3.md",
+            "file": "knowledge/AI/instant Nerf.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#GPT-3",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "knowledge/AI/GPT-3.md",
+                "file": "knowledge/AI/instant Nerf.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,7 +89,11 @@
   },
   "active": "12af04a16c766537",
   "lastOpenFiles": [
+    "knowledge/AI/instant Nerf.md",
+    "Presentations/lerend_netwerk/lerend_netwerk.md",
+    "projects/projects.md",
+    "README.md",
     "knowledge/AI/GPT-3.md",
-    "README.md"
+    "knowledge/web3_0/Mastodon.md"
   ]
 }
