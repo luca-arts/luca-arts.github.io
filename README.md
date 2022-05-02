@@ -42,9 +42,13 @@ We want to research how these changes will affect the future of creatives:
 
 #### get in touch
 
-mail us at polymath [at] luca-arts [dot] be for:
+mail us at `polymath [at] luca-arts [dot] be` for:
 
 - interest
 - researchprojects
 - participation of or presenting a talk
 - knowledge sharing
+
+#### socials
+
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/LucaPolymath.svg?style=social&label=Follow%20%40LucaPolymath)](https://twitter.com/LucaPolymath)
