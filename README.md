@@ -51,4 +51,4 @@ mail us at `polymath [at] luca-arts [dot] be` for:
 
 #### socials
 
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/LucaPolymath.svg?style=social&label=Follow%20%40LucaPolymath)](https://twitter.com/LucaPolymath)
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/polymath_lab.svg?style=social&label=Follow%20%40polymath_lab)](https://twitter.com/LucaPolymath)
