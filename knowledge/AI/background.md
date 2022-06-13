@@ -1,0 +1,2 @@
+- [list of AI tools](https://pharmapsychotic.com/tools.html)
+- [AI explained](https://distill.pub/about/) 
