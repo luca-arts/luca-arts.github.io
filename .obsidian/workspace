@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "knowledge/software/links.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "knowledge/software/links.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "12af04a16c766537",
   "lastOpenFiles": [
+    "README.md",
     "knowledge/software/links.md",
     "links.md",
     "knowledge/AI/instant Nerf.md",
@@ -96,7 +97,6 @@
     "knowledge/AI/containers_for_ml.md",
     "Polymath Lab.md",
     "Untitled.md",
-    "README.md",
     "projects/projects.md",
     "projects/dig_transformatie_22/relanceplan digitale transformatie.md"
   ]
