@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "knowledge/AI/instant Nerf.md",
+            "file": "knowledge/software/links.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "knowledge/AI/instant Nerf.md",
+                "file": "knowledge/software/links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,11 +89,15 @@
   },
   "active": "12af04a16c766537",
   "lastOpenFiles": [
+    "knowledge/software/links.md",
+    "links.md",
     "knowledge/AI/instant Nerf.md",
-    "Presentations/lerend_netwerk/lerend_netwerk.md",
-    "projects/projects.md",
-    "README.md",
     "knowledge/AI/GPT-3.md",
-    "knowledge/web3_0/Mastodon.md"
+    "knowledge/AI/containers_for_ml.md",
+    "Polymath Lab.md",
+    "Untitled.md",
+    "README.md",
+    "projects/projects.md",
+    "projects/dig_transformatie_22/relanceplan digitale transformatie.md"
   ]
 }

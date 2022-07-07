@@ -11,13 +11,9 @@ you need colmap installed **with** CUDA support: [installation link](https://col
 
 #### issues
 
-1. On my ZBook Fury I noticed I got a `cc1plus` errorr while running `make -j` . This is probably due to having too much processes runnin
-2. 
+1. On my ZBook Fury I noticed I got a `cc1plus` errorr while running `make -j` . This is probably due to having too much processes running in parallel. To test I went for `make -j4` .
+2. I got an error at the end of make process,  something with an undefined reference to LIBTIFF. I had to deinstall libtiff via conda: `conda uninstall libtiff` .
 3. 
-4. 
-5. g in parallel. To test I went for `make -j4` .
-6. I got an error at the end of make process,  something with an undefined reference to LIBTIFF. I had to deinstall libtiff via conda: `conda uninstall libtiff` .
-7. 
 
 ### instant-ngp
 
