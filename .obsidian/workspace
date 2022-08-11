@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "projects/the_dreams_of_polymath/Concept_1_drought.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 574.5036334991455
   },
   "right": {
     "id": "0b25fd48f1ba97fe",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "projects/the_dreams_of_polymath/Concept_1_drought.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "12af04a16c766537",
   "lastOpenFiles": [
+    "projects/the_dreams_of_polymath/Concept_2_change_enabling.md",
+    "projects/the_dreams_of_polymath/Concept_1_drought.md",
+    "projects/the_dreams_of_polymath/Concept.md",
+    "eigenquestions the art of framing problems.md",
+    "knowledge/AI/General remarks.md",
+    "Untitled.md",
+    "Untitled 1.md",
     "README.md",
     "knowledge/software/links.md",
-    "links.md",
-    "knowledge/AI/instant Nerf.md",
-    "knowledge/AI/GPT-3.md",
-    "knowledge/AI/containers_for_ml.md",
-    "Polymath Lab.md",
-    "Untitled.md",
-    "projects/projects.md",
-    "projects/dig_transformatie_22/relanceplan digitale transformatie.md"
+    "links.md"
   ]
 }
