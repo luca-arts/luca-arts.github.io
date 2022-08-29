@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "projects/the_dreams_of_polymath/Concept_1_drought.md",
+            "file": "Img2prompt.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/the_dreams_of_polymath/Concept_1_drought.md",
+                "file": "Img2prompt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "12af04a16c766537",
   "lastOpenFiles": [
-    "projects/the_dreams_of_polymath/Concept_2_change_enabling.md",
     "projects/the_dreams_of_polymath/Concept_1_drought.md",
+    "knowledge/AI/prompt building.md",
+    "projects/the_dreams_of_polymath/bruggen als waterfilters.md",
+    "projects/the_dreams_of_polymath/Concept_2_change_enabling.md",
     "projects/the_dreams_of_polymath/Concept.md",
     "eigenquestions the art of framing problems.md",
     "knowledge/AI/General remarks.md",
     "Untitled.md",
-    "Untitled 1.md",
     "README.md",
-    "knowledge/software/links.md",
-    "links.md"
+    "knowledge/software/links.md"
   ]
 }
