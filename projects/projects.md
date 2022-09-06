@@ -1,6 +1,6 @@
 # project overview
 
-1. [TrustVR](https://luca-arts.github.io/trustvr/) 
+1. [AddAttachment](https://luca-arts.github.io/addattachment/) 
 	- measuring trust in parent-child relations
 	- #VR #biometrics #unity #HCI #open-source
 2. [PWO Narafi](https://github.com/luca-arts/seeingtheimperceptible)
