@@ -1,8 +1,6 @@
 # Drought
 
-![](./imgs/drooglegging.jpeg)
-
-0789570003
+![drooglegging](./imgs/drooglegging.jpeg)
 
 droogte, waterschaarste, het is een (pun intended) hot topic.
 
@@ -17,7 +15,7 @@ Zo genereren we (middels AI) utopische en dystopische beelden van mensen hun eig
 We genereren unieke varianten van hetzelfde verhaal door middel van AI.
 Studio Reclame denkt mee na, in samenwerking met AI,  over slogans die aansluiten bij verschillende personas (denk de vlaming wiens grasperk perfect groen blijft bij een hittegolf, tot de stedeling die massa's advocado's eet, tot de impact van het bedrijf een beetje verderop).
 
-![](./imgs/concept_1/welcome_to_ibiza.png)
-![](./imgs/concept_1/the_view_from_the_coupure.png)
+![welcome_to_ibiza](./imgs/concept_1/welcome_to_ibiza.png)
+![view from the coupure](./imgs/concept_1/the_view_from_the_coupure.png)
 
 
