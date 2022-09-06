@@ -7,12 +7,8 @@
         "id": "12af04a16c766537",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "projects/projects.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,7 +82,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "12af04a16c766537",
+  "active": "95ac9d8b412a30d1",
   "lastOpenFiles": [
     "projects/the_dreams_of_polymath/Drafts.md",
     "projects/the_dreams_of_polymath/Concept.md",
