@@ -16,12 +16,13 @@
 		- stimulate creativity
 		- lessen labor intensive work4
 	- #AI #photo #open-source 
-2. [PWO Audio Mocap]()
+2. [PWO Audio Mocap](https://github.com/luca-arts/PWO_audioMocap)
 
 
 ### inter AC
 1. [residenties]()
-
+	- [Nicolas Provost](https://twitter.com/kaosbeat/status/1574698186257698817)
+	- [Matthijs De Block]()
 
 
 
