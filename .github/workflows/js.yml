@@ -20,9 +20,6 @@ jobs:
     - name: Install packages
       run: npm install
       working-directory: ./docs/slides/test
-    - name: Install reveal.js
-      run: npm install reveal.js@3.9.2
-      working-directory: ./docs/slides/test
     - name: Build packages
       working-directory: ./docs/slides/test
       run: npm run build --if-present

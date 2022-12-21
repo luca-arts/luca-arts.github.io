@@ -1,4 +1,7 @@
 {
-  "name": "reveal.js",
-  "version": "3.9.2"
+  "name": "AI for graphic storytelling",
+  "version": "0.0.1",
+  "devDependencies": {
+    "reveal.js": "^3.9.2"
+  }
 }
