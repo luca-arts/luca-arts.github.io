@@ -10,7 +10,7 @@ visit  [project page](./projects/projects.md)
 
 ### Slides
 
-[AI slides](./slides/critical_diffusion/index.html)
+[Generative AI for Graphic Storytelling](./slides/critical_diffusion/index.html) Slides for workshop on dec 20th 2022 at LUCA School of Art in Schaarbeek
 
 ### About
 
