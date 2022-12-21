@@ -8,6 +8,10 @@ a research lab and community, bridging creatives and technology
 
 visit  [project page](./projects/projects.md)
 
+### Slides
+
+[AI slides](./slides/critical_diffusion/index.html)
+
 ### About
 
 #### who
