@@ -4,8 +4,38 @@ on:
     branches:
       - master
       - main
+  build:
+    runs-on: ubuntu-latest
+    
+    # strategy:
+    #   matrix:
+    #     node-version: [10.x, 14.x, 16.x]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        # node-version: ${{ matrix.node-version }}
+        # with:
+        node-version: '16.x'
+        cache: 'npm'
+    - name: Install packages
+      run: npm install
+      working-directory: ./docs/slides/test
+    - name: Check packages
+      run: ls -la
+      working-directory: ./docs/slides/test
+    - name: Build packages
+      working-directory: ./docs/slides/test
+      run: npm run build --if-present
+    # - name: Run Tests
+    #   working-directory: ./docs/slides/test
+    #   run: npm test
+    #   env:
+    #     CI: true
 jobs:
   deploy:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -15,4 +45,4 @@ jobs:
       - run: pip install mkdocs-material
       - run: pip install mkdocs-roamlinks-plugin
       - run: pip install mkdocs-mermaid2-plugin
-      - run: mkdocs gh-deploy --force
+      - run: mkdocs gh-deploy --force, 
