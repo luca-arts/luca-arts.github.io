@@ -1,33 +1,33 @@
-name: slides_reveal_js
+# name: slides_reveal_js
 
-on: [push]
+# on: [push]
 
-jobs:
-  build:
+# jobs:
+#   build:
 
-    runs-on: ubuntu-latest
+#     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [10.x, 14.x, 16.x]
+#     strategy:
+#       matrix:
+#         node-version: [10.x, 14.x, 16.x]
 
-    steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: Install packages
-      run: npm install
-      working-directory: ./docs/slides/test
-    - name: Check packages
-      run: ls -la
-      working-directory: ./docs/slides/test
-    - name: Build packages
-      working-directory: ./docs/slides/test
-      run: npm run build --if-present
-    # - name: Run Tests
-    #   working-directory: ./docs/slides/test
-    #   run: npm test
-    #   env:
-    #     CI: true
+#     steps:
+#     - uses: actions/checkout@v2
+#     - name: Use Node.js ${{ matrix.node-version }}
+#       uses: actions/setup-node@v1
+#       with:
+#         node-version: ${{ matrix.node-version }}
+#     - name: Install packages
+#       run: npm install
+#       working-directory: ./docs/slides/test
+#     - name: Check packages
+#       run: ls -la
+#       working-directory: ./docs/slides/test
+#     - name: Build packages
+#       working-directory: ./docs/slides/test
+#       run: npm run build --if-present
+#     # - name: Run Tests
+#     #   working-directory: ./docs/slides/test
+#     #   run: npm test
+#     #   env:
+#     #     CI: true
