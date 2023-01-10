@@ -5,14 +5,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-	<title>AI for graphic storytelling</title>
+	<title>reveal.js</title>
 
-	<link rel="stylesheet" href="node_modules/reveal.js/css/reset.css">
-	<link rel="stylesheet" href="node_modules/reveal.js/css/reveal.css">
-	<link rel="stylesheet" href="node_modules/reveal.js/css/theme/black.css">
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
 
 	<!-- Theme used for syntax highlighted code -->
-	<link rel="stylesheet" href="node_modules/reveal.js/lib/css/monokai.css">
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
 </head>
 
 <body>
@@ -117,12 +117,15 @@
 						<img class="fragment" src="https://i.imgur.com/YVl6Mme.png" />
 
 						<img class="fragment" src="https://i.imgur.com/5BAUgfd.png" />
+
 					</div>
 					<aside class="notes">
 						W<br>
 						our AI encoder gave us a sequence of numbers, so we can position the dog on the landmap
 
 					</aside>
+
+
 				</section>
 
 				<section>
@@ -160,9 +163,27 @@
 							explorer</a></p>
 					<aside class="notes">
 						W<br>
-						<a href="https://huggingface.co/CompVis/stable-diffusion-v1-4">train the entire model?</a>
+						<a href="https://huggingface.co/CompVis/stable-diffusion-v1-4">train the entire model?</a><br>
+						now I'd also like to take some time to think about the data used
 					</aside>
 
+				</section>
+				<section>
+					<h2>talking about data</h2>
+					<h4 class="fragment">AI model represent trainings-data</h4>
+					<h4 class="fragment">trainings-data...</h4>
+					<ul>
+							<li class="fragment">represents digital society</li>
+							<li class="fragment">represents many artists</li>
+							<li class="fragment">cleaned for big audience (NSFW, violence, ...)</li>
+							<li class="fragment">&ne; (version of) model, &ne; dataset </li>
+					</ul>
+					<aside class="notes">
+						W<br>
+						<p>dig society: we all know that the internet is not the most inclusive place</p>
+						<p>many artist: artists around the globe were not consolidated or compensated</p>
+						<p>data is cleaned: Yet with at one hand mistakes or interpretation or ethical differences?</p>
+					</aside>
 				</section>
 				<section>
 					<h3>lets encode some text too</h3>
@@ -276,8 +297,7 @@
 				<section>
 					<h1> some tips</h1>
 					<h4>strange <a href="https://lexica.art/?q=4836e513-a417-4f53-a35f-196ece68cae0">trees</a> and weird
-						<a href="https://lexica.art/?q=0332d697-ea33-4088-b610-fa8902ddb787">heads</a>
-					</h4>
+						<a href="https://lexica.art/?q=0332d697-ea33-4088-b610-fa8902ddb787">heads</a></h4>
 					<img class="r-stretch" src="img/weirdai.png">
 					<aside class="notes">
 						hands used to be a problem too (no more in 2.0)
@@ -340,19 +360,19 @@
 		</div>
 	</div>
 
-	<script src="node_modules/reveal.js/js/reveal.js"></script>
-	
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
 	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
 		Reveal.initialize({
 			hash: true,
-			center: true,
 
-			dependencies: [
-				{ src: 'node_modules/reveal.js/plugin/markdown/marked.js' },
-				{ src: 'node_modules/reveal.js/plugin/markdown/markdown.js' },
-				{ src: 'node_modules/reveal.js/plugin/highlight/highlight.js' },
-				{ src: 'node_modules/reveal.js/plugin/notes/notes.js', async: true }
-			],
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
 		});
 	</script>
 </body>
