@@ -6,5 +6,5 @@
 .trash
 ehthumbs.db
 Thumbs.db
-.docs/slides/test/node_modules
+.docs/slides/test/node_modules/
 .obsidian/
