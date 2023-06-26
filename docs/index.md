@@ -14,6 +14,7 @@ visit  [project page](./projects/projects.md)
 
 [test](./slides/test/index.html)
 
+[Artevelde](./slides/Artevelde/index.html)
 ### About
 
 #### who
