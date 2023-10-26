@@ -9,10 +9,11 @@
 
 	<link rel="stylesheet" href="dist/reset.css">
 	<link rel="stylesheet" href="dist/reveal.css">
-	<link rel="stylesheet" href="dist/theme/black.css">
+	<link rel="stylesheet" href="dist/theme/league.css">
 
 	<!-- Theme used for syntax highlighted code -->
 	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
 </head>
 
 <body>
@@ -59,9 +60,8 @@
 
 			<section>
 				<section>
-					<h1 class="r-fit-text">How</h1>
-					<h3>does AI work?</h3>
-					<h4 class="fragment r-stretch ">it's complicated to explain<span class="fragment">, but easy to
+					<h3 class="r-fit-text">How does AI work?</h3>
+					<h4 class="fragment r-stretch">it's complicated to explain<span class="fragment">, but easy to
 							use</span></h4>
 					<aside class="notes">K </aside>
 				</section>
@@ -249,8 +249,8 @@
 			</section>
 			<section>
 				<section>
-					<h1 class="r-fit-text"> What</h1>
-					<h2>do you need to know to get started</h2>
+					<h2 class="r-fit-text"> What</h2>
+					<h3>do you need to know to get started</h3>
 					<aside class="notes">W </aside>
 				</section>
 				<!-- <section>
@@ -331,7 +331,7 @@
 					<img class="r-stretch" src="img/noise.png" />
 				</section>
 				<section>
-					<h2>The seed</h2>
+					<h3>The seed</h3>
 					<div class="r-stack">
 						<div class="fragment fade-in-then-out">
 							<img class="r-stretch"
@@ -356,7 +356,7 @@
 					</div>
 				</section>
 			</section>
-			<section>				
+			<section>
 				<section>
 					<h4 class="">Complete this image in a way that proves you won’t be replaced by AI</h4>
 					<img class="r-stretch" src="img/trex.jpeg" />
@@ -364,7 +364,7 @@
 					<h4><a href="https://twitter.com/anloremi/status/1580220950163099649">twitterthread</a></h4>
 				</section>
 			</section>
-			
+
 		</div>
 	</div>
 
@@ -378,7 +378,15 @@
 		// - https://revealjs.com/config/
 		Reveal.initialize({
 			hash: true,
-
+			controlsTutorial: false,
+			controlsLayout: 'edges',
+			progress: true,  // Show progress indicator
+			slideNumber: 'c/t', // Show current slide and total number of slides
+			loop: true, // Loop the animation
+			autoAnimate: true, // Transition the styles
+			transition: "fade", // Add a zoom animation to every slide
+			autoAnimateEasing: 'ease',
+			autoAnimateDuration: 5.0,
 			// Learn about plugins: https://revealjs.com/plugins/
 			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
 		});
