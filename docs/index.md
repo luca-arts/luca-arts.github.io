@@ -15,6 +15,9 @@ visit  [project page](./projects/projects.md)
 [test](./slides/test/index.html)
 
 [Artevelde](./slides/Artevelde/index.html)
+
+[Dig Studio3](./slides/DigStudio3/index.html)
+
 ### About
 
 #### who

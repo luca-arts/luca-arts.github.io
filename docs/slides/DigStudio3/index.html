@@ -1,0 +1,388 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-background-image="img/187216722_colorful_outside_world__post_modern__graphic_novel.jpg">
+				<h1>Generative AI</h1>
+				<!-- <h2>een blik onder de motorkap</h2> -->
+			</section>
+			<section>
+				<section>
+					<h1>AI history</h1>
+					<p>New hype?</p>
+				</section>
+				<section>
+					<h1>Old hype!</h1>
+					<img class="r-stretch fadein " src="img/AI_winter.jpg" />
+				</section>
+				<section>
+					<div class="row">
+						<center>
+							<div class="column">
+
+								<img src="img/prof.jpg" alt="prof" style="width:33%">
+							</div>
+							<div class="column">
+
+								<img class="fragment" src="img/pope.webp" alt="Cool pope" style="width:33%">
+							</div>
+						</center>
+					</div>
+				</section>
+				<section>
+					<h2>Why succesful now?</h2>
+					<ul>
+						<li class="fragment">computer power ++</li>
+						<li class="fragment">mathematicians + time</li>
+						<li class="fragment">...</li>
+						<li class="fragment">Data, lots of data</li>
+						<li class="fragment">community: computer science + creatives</li>
+					</ul>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h1 class="r-fit-text">How</h1>
+					<h3>does AI work?</h3>
+					<h4 class="fragment r-stretch ">it's complicated to explain<span class="fragment">, but easy to
+							use</span></h4>
+					<aside class="notes">K </aside>
+				</section>
+				<section>
+					<h3>Compare with MP3 compression</h3>
+					<object data="img/mp3.svg" type="image/svg+xml"></object>
+					<aside class="notes"> encoding + decoding are algorithms created by HUMANS
+					</aside>
+				</section>
+				<section>
+					<h4>now for AI</h4>
+					<h3 class="fragment">encoding step</h3>
+					<div class="r-stack">
+						<object data="img/endecoderimg.svg" type="image/svg+xml"></object>
+						<img class="fragment" src="img/encoderimg.png" />
+						<img class="fragment" src="img/latentencoderimg.png" />
+					</div>
+					<h3 class="fragment">latent space vector</h3>
+					<aside class="notes">
+						encode text to a mathematical representation, a vector<br>
+						You could say this is an arrow on a map, pointing to a location<br>
+						keep this in mind for a minute
+					</aside>
+				</section>
+
+				<section>
+					<h1>Latent Space?</h1>
+					<h4>lets take a latent space walk</h4>
+					<img class="r-stretch" src="img/latentspacewalk.png" />
+
+				</section>
+
+				<section>
+					<h2>What is latent space</h2>
+					<div class="r-stack">
+						<img class="fragment" src="./img/world/1.jpg" />
+
+						<img class="fragment" src="./img/world/2.png" />
+
+						<img class="fragment" src="./img/world/3.png" />
+
+						<img class="fragment" src="./img/world/4.png" />
+
+						<img class="fragment" src="./img/world/5.png" />
+
+						<img class="fragment" src="./img/world/6.png" />
+
+						<img class="fragment" src="./img/world/7.png" />
+
+						<img class="fragment" src="./img/world/8.jpg" />
+
+						<img class="fragment" src="./img/world/9.png" />
+
+						<img class="fragment" src="./img/world/10.png" />
+
+						<img class="fragment" src="./img/world/11.png" />
+
+						<!-- <img class="fragment" src="./img/world/12.png" /> -->
+
+					</div>
+					<aside class="notes">
+						W<br>
+						Wat is hier eigenlijk belangrijk? <br>
+						de computer is in staat te beslissen of een afbeelding gelijkaardig is qua concept als een
+						andere afbeelding, juist doordat die vector gegeven wordt aan een afbeelding. <br>
+						Vergelijk het met een persoon die moet uitleggen hoe een plant in een pot er uit ziet, aan een
+						blinde. De blinde gaat nooit het oorspronkelijke beeld zien, maar als de uitleg goed is, gaat
+						die het concept wel goed mee hebben. <br>
+					</aside>
+				</section>
+				<section>
+					<h2>Why latent space?</h2>
+					<ul>
+						<li class="fragment">how AI "memorises" text or images</li>
+						<li class="fragment">how concepts are stored and compared</li>
+						<li class="fragment">images with vector close: very similar concepts!</li>
+						<li class="fragment"><a href="https://lexica.art/">lexica.art</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>training on data</h2>
+					<img class="r-stretch" src="./img/trainingmap.png" />
+					<br>
+					<a
+						href="https://towardsdatascience.com/understanding-latent-space-in-machine-learning-de5a7c687d8d">src
+						link</a>
+
+					<aside class="notes">
+						W<br>
+						the latent space, a gut-feeling approach: <br>
+						model ==> encoding (a vector/coordinate):
+					</aside>
+
+				</section>
+
+				<section>
+					<h2>train your own latent space</h2>
+					<h4>Stable diffusion example</h4>
+					<ul>
+						<li>lot's of data eg: <a href="https://laion.ai/blog/laion-5b/">the laion-5b dataset</a> </li>
+						<ul>
+							<li class="fragment">5.85 billion image-text pairs.</li>
+							<li class="fragment">a hard drive of 240TB </li>
+						</ul>
+						<li class="fragment">32 x 8 x A100 GPUs</li>
+						<li class="fragment">cost: approx $ 600,000</li>
+						<li class="fragment">carbon cost: 11,250 kg CO2 </li>
+						<li class="fragment">or ± 2.5 cars driving 15,000 km/year</li>
+					</ul>
+					<p class="fragment"><a
+							href="https://rom1504.github.io/clip-retrieval/?back=https%3A%2F%2Fknn5.laion.ai&index=laion5B&useMclip=false0">dataset
+							explorer</a></p>
+					<aside class="notes">
+						W<br>
+						<a href="https://huggingface.co/CompVis/stable-diffusion-v1-4">train the entire model?</a><br>
+						now I'd also like to take some time to think about the data used
+					</aside>
+
+				</section>
+				<section>
+					<h2>talking about data</h2>
+					<h4 class="fragment">AI model represent trainings-data</h4>
+					<h4 class="fragment">trainings-data...</h4>
+					<ul>
+						<li class="fragment">represents digital society</li>
+						<li class="fragment">represents many artists</li>
+						<li class="fragment">cleaned for big audience (NSFW, violence, ...)</li>
+						<li class="fragment">&ne; (version of) model, &ne; dataset </li>
+					</ul>
+					<aside class="notes">
+						W<br>
+						cleaned or censored? <br>
+
+						<p>dig society: inherent is er bias</p>
+						<p>many artist: artists around the globe were not consolidated or compensated</p>
+						<p>data is cleaned: Yet with at one hand mistakes or interpretation or ethical differences?</p>
+						ge hebt whiskey, en ge hebt whiskey <br>
+					</aside>
+				</section>
+				<section>
+					<h3>lets encode some text too</h3>
+					<object data="img/encoder.svg" type="image/svg+xml"></object>
+					<h3 class="fragment">latent space vector</h3>
+					<h3 class="fragment"><a href="https://distill.pub/2017/feature-visualization/">features
+							visualisation</a></h3>
+					<aside class="notes">
+						K<br>
+						an encoder can encode images too, if it was trained to do this.
+						An encoder looks for 'features' in images and gives weights to those features in teh latent
+						space, resulting in a vector
+					</aside>
+				</section>
+				<section>
+					<h3>Remember this one?</h3>
+					<object data="img/mp3.svg" type="image/svg+xml"></object>
+					<aside class="notes"> encoding + decoding are algorithms created by HUMANS
+					</aside>
+				</section>
+
+				<section>
+					<h3>right, a decoder is missing!</h3>
+					<object data="img/decoder.svg" type="image/svg+xml"></object>
+					<h3 class="fragment"></h3>
+					<aside class="notes">
+						we can decode the latent space vector to something human understandeable, like images
+						remember that we did an enormous reduction of information in the encoding processs.
+						all features were representeted by a weight. 56% santa, -40% polar bear etc etc...
+					</aside>
+
+				</section>
+				<section>
+					<h3>latent diffusion model</h3>
+					<object data="img/endecoder.svg" type="image/svg+xml"></object>
+					<h3 class="fragment">type prompt</h3>
+					<h3 class="fragment">get image</h3>
+
+					<aside class="notes">
+						from 240TB of training data to 4.4gb model (that is less than 1/50000 of the original
+						information)
+
+					</aside>
+
+				</section>
+			</section>
+			<section>
+				<section>
+					<h1 class="r-fit-text"> What</h1>
+					<h2>do you need to know to get started</h2>
+					<aside class="notes">W </aside>
+				</section>
+				<!-- <section>
+					<h4> Dreamstudio intro </h4>
+					<img class="r-stretch" src="https://i.imgur.com/CLO1mky.png" />
+					<p><a href="https://beta.dreamstudio.ai/">https://beta.dreamstudio.ai/</a></p>
+					<p>DreamStudio: website hosting *Stable Diffusion*</p>
+					<p>Use: **Google Chrome** or **Brave**</p>
+				</section> -->
+
+				<section>
+					<h1>Prompt Engineering</h1>
+					<h3>A prompt consists of :</h3>
+					<ul>
+						<li>1. A (main) topic</li>
+						<li>2. an environment</li>
+						<li>3. details</li>
+						<li>4. atmosphere and context of the scene</li>
+						<li>5. style (artist, medium)</li>
+					</ul>
+					<aside class="notes">
+						these are some additional guidelines or hints when composing a prompt<br>
+						interesting and especially controllable image? <br>
+						get familiar with 'prompt engineering'. <br>
+						Think of it this way: <br>
+						little instructions to a graphic artist, <br>
+						nice result, <br>
+						not have much control over composition, style, concept, etc. <br>
+						The better you are at conveying your message<br>
+						the bigger the chance you'll get something interesting and reproducable. <br>
+						Prompts have small differences over different AI models, but the core concept is the same. <br>
+					</aside>
+				</section>
+				<section>
+					<h1>tools or models</h1>
+					<ol>
+						<li class="fragment">AI model: engine</li>
+						<li class="fragment">tools: car chassis</li>
+					</ol>
+				</section>
+				<section>
+					<h2>tools or models: example</h2>
+					<ol>
+						<li class="fragment">AI model: Stable Diffusion</li>
+						<li class="fragment">tools: dreamstudio, InvokeAI, ComfyUI, ...</li>
+						<li class="fragment">≠ tools: </li>
+						<ul>
+							<li class="fragment">≠ payment</li>
+							<li class="fragment">≠ possibilities</li>
+							<li class="fragment">≠ inspiration</li>
+						</ul>
+					</ol>
+				</section>
+				<section>
+					some tools: run locally
+					<p class="fragment">if you have a decent GPU!</p>
+					<aside class="notes"></aside>
+				</section>
+				<section>
+					<h1>AI models</h1>
+					<ul>
+						<li class="fragment">different models are trained on different datasets </li>
+						<li class="fragment">they work optimal on the resolution of the original dataset!</li>
+						<li class="fragment">Stable Diffusion 1.5: 512x512</li>
+						<li class="fragment">Stable Diffusion XL: 1024x1024</li>
+					</ul>
+				</section>
+				<section>
+					<h2>The seed</h2>
+					<img class="r-stretch"
+						src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/07/MathRandomness_2880x1620-LEDE.jpg" />
+					<div>The problem modern computers have with randomness is that it doesn’t make mathematical sense.
+					</div>
+				</section>
+				<section>
+					<h2>The seed</h2>
+					<div>Starting point of your image generation</div>
+					<img class="r-stretch" src="img/noise.png" />
+				</section>
+				<section>
+					<h2>The seed</h2>
+					<div class="r-stack">
+						<div class="fragment fade-in-then-out">
+							<img class="r-stretch"
+								src="https://cdn.getimg.ai/generated/img-QlZzFqCIx9i4U1dG88XZvD.png" />
+							<div>Base prompt </div>
+						</div>
+						<div class="fragment fade-in-then-out">
+							<img class="r-stretch"
+								src="https://cdn.getimg.ai/generated/img-k6betvpEVghRZaI9uICMPF.png" />
+							<div>Smiling</div>
+						</div>
+						<div class="fragment fade-in-then-out">
+							<img class="r-stretch"
+								src="https://cdn.getimg.ai/generated/img-399MMeOAVlrHZtAhwjyR9V.png" />
+							<div>Angry</div>
+						</div>
+						<div class="fragment fade-in-then-out">
+							<img class="r-stretch"
+								src="https://cdn.getimg.ai/generated/img-DK1whmrmGxkb9sq1SxRMa6.png" />
+							<div>Excited</div>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section>				
+				<section>
+					<h4 class="">Complete this image in a way that proves you won’t be replaced by AI</h4>
+					<img class="r-stretch" src="img/trex.jpeg" />
+					<h4 class="fragment">using AI is allowed</h4>
+					<h4><a href="https://twitter.com/anloremi/status/1580220950163099649">twitterthread</a></h4>
+				</section>
+			</section>
+			
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
