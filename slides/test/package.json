@@ -1,0 +1,7 @@
+{
+  "name": "reveal",
+  "version": "0.0.1",
+  "devDependencies": {
+    "reveal.js": "^3.9.2"
+  }
+}

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="250mm"
+   height="100mm"
+   viewBox="0 0 250 100"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="encoder.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.48814836"
+     inkscape:cx="512.13938"
+     inkscape:cy="663.73264"
+     inkscape:window-width="1488"
+     inkscape:window-height="1053"
+     inkscape:window-x="576"
+     inkscape:window-y="272"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-11.407786,-55.786156)">
+    <path
+       id="encodersymbol"
+       style="fill-opacity:1;stroke-width:1.39087;stroke-dashoffset:1.85158"
+       fill="#e6e6e6"
+       d="M 72.181188,85.689043 112.2085,98.743083 V 114.68204 L 72.181188,125.71636 Z"
+       sodipodi:nodetypes="ccccc" />
+    <rect
+       style="stroke-width:1.31532;stroke-dashoffset:1.85158"
+       id="promptrect"
+       fill="#e6e6e6"
+       width="34.851231"
+       height="17.425776"
+       x="27.659208"
+       y="96.217674"
+       ry="2.7462144" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.31763px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10794"
+       x="31.051538"
+       y="103.62604"
+       id="text2942"><tspan
+         sodipodi:role="line"
+         id="inputtext1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.10794"
+         x="31.051538"
+         y="103.62604">interesting</tspan><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.10794"
+         x="31.051538"
+         y="109.02308"
+         id="inputtext2"> prompt</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.92257px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.123064"
+       x="81.707352"
+       y="107.06939"
+       id="text2942-7"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:monospace;-inkscape-font-specification:monospace;stroke-width:0.123064"
+         x="81.707352"
+         y="107.06939"
+         id="encoder">encoder</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.184001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 65.426695,105.42314 h 5.249707"
+       id="path3723" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.184001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 114.47561,105.42314 h 5.24971"
+       id="path3912" />
+    <rect
+       style="stroke-width:1.39087;stroke-dashoffset:1.85158"
+       id="rect3936"
+       class="vbox"
+       fill="#e8e8e8"
+       width="17.806032"
+       height="11.004733"
+       x="121.62735"
+       y="100.03534"
+       ry="1.6584237" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33778px;line-height:1.25;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.108445"
+       x="122.89825"
+       y="107.41506"
+       id="text5769"><tspan
+         sodipodi:role="line"
+         id="vector1"
+         class="vector"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33778px;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.108445"
+         x="122.89825"
+         y="107.41506">0.051</tspan></text>
+    <rect
+       style="stroke-width:1.39087;stroke-dashoffset:1.85158"
+       id="rect7661"
+       class="vbox"
+       fill="#e8e8e8"
+       width="17.806032"
+       height="11.004733"
+       x="143.11343"
+       y="100.03534"
+       ry="1.6584237" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33778px;line-height:1.25;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.108445"
+       x="144.38432"
+       y="107.41506"
+       id="text7667"><tspan
+         sodipodi:role="line"
+         id="tspan7665"
+         class="vector"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33778px;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.108445"
+         x="144.38432"
+         y="107.41506">0.051</tspan></text>
+    <rect
+       style="stroke-width:1.39087;stroke-dashoffset:1.85158"
+       id="rect7775"
+       class="vbox"
+       fill="#e8e8e8"
+       width="17.806032"
+       height="11.004733"
+       x="164.5995"
+       y="100.03534"
+       ry="1.6584237" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33778px;line-height:1.25;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.108445"
+       x="165.87039"
+       y="107.41506"
+       id="text7779"><tspan
+         sodipodi:role="line"
+         id="tspan7777"
+         class="vector"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33778px;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.108445"
+         x="165.87039"
+         y="107.41506">0.051</tspan></text>
+    <rect
+       style="stroke-width:1.39087;stroke-dashoffset:1.85158"
+       id="rect7783"
+       class="vbox"
+       fill="#e8e8e8"
+       width="17.806032"
+       height="11.004733"
+       x="186.08557"
+       y="100.03534"
+       ry="1.6584237" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33778px;line-height:1.25;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.108445"
+       x="187.35646"
+       y="107.41506"
+       id="text7787"><tspan
+         sodipodi:role="line"
+         id="tspan7785"
+         class="vector"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33778px;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.108445"
+         x="187.35646"
+         y="107.41506">0.051</tspan></text>
+    <rect
+       style="stroke-width:1.39087;stroke-dashoffset:1.85158"
+       id="rect7789"
+       class="vbox"
+       fill="#e8e8e8"
+       width="17.806032"
+       height="11.004733"
+       x="207.57162"
+       y="100.03534"
+       ry="1.6584237" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33778px;line-height:1.25;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.108445"
+       x="208.84254"
+       y="107.41506"
+       id="text7793"><tspan
+         sodipodi:role="line"
+         id="tspan7791"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33778px;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.108445"
+         x="208.84254"
+         y="107.41506">....</tspan></text>
+    <rect
+       style="stroke-width:1.39087;stroke-dashoffset:1.85158"
+       id="rect7795"
+       class="vbox"
+       fill="#e8e8e8"
+       width="17.806032"
+       height="11.004733"
+       x="229.05769"
+       y="100.03534"
+       ry="1.6584237" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33778px;line-height:1.25;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.108445"
+       x="230.32861"
+       y="107.41506"
+       id="text7801"><tspan
+         sodipodi:role="line"
+         id="tspan7799"
+         class="vector"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.33778px;font-family:monospace;-inkscape-font-specification:'monospace, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.108445"
+         x="230.32861"
+         y="107.41506">0.051</tspan></text>
+  </g>
+  <script
+     id="script1278">//<![CDATA[
+    const intxt1 = ["crazy", "nice", "fancy", "Critical", "Practice",  "Graphic",  "Storytelling"];
+    const intxt2 = ["santa claus", "cat", "dog"];
+    var input1 = document.getElementById("inputtext1");
+    var input2 = document.getElementById("inputtext2");
+    
+    <!-- const screen = document.getElementById("screen"); -->
+   var frame = 0;
+   var txt1 = Math.floor(Math.random() * intxt1.length); 
+   var txt2 = Math.floor(Math.random() * intxt2.length); 
+   var elements = document.getElementsByClassName('vector');
+   var vboxs = document.getElementsByClassName('vbox');
+   var encodersymbol = document.getElementById("encodersymbol");
+   var promptsymbol = document.getElementById("promptrect");
+    <!-- var ypos = 0; -->
+    function animate() {
+      frame++;
+      if (frame%100 == 0){
+         txt1 = Math.floor(Math.random() * intxt1.length); 
+         txt2 = Math.floor(Math.random() * intxt2.length); 
+         promptsymbol.setAttribute("fill","#e8ffe8")
+                  for(i=0;i<6;i++){
+            vboxs[i].setAttribute("fill","#e8e8e8")
+         }
+
+         <!-- console.log(intxt1[txt1]) -->
+         input1.innerHTML = intxt1[txt1];
+         input2.innerHTML = intxt2[txt2];
+         
+      }
+      if (frame%100 == 33){
+         encodersymbol.setAttribute("fill","#e8ffe8")
+         promptsymbol.setAttribute("fill","#e8e8e8")
+         }
+      if (frame%100 == 50){
+          encodersymbol.setAttribute("fill","#e8e8e8")
+         
+         }
+      if (frame%100 == 66){
+
+         for(i=0;i<5;i++){
+            elements[i].innerHTML= (0.5-Math.random()).toFixed(3);
+            } 
+         for(i=0;i<6;i++){
+            vboxs[i].setAttribute("fill","#e8ffe8")
+         }
+      }
+
+        requestAnimationFrame(animate);
+    }
+    requestAnimationFrame(animate);//]]></script>
+</svg>
